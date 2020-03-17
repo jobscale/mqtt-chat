@@ -59,3 +59,5 @@ mongo-test-db
 
 # webpack build
 public/javascript/index_bundle.js
+node_modules/
+package-lock.json

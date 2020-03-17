@@ -14,7 +14,7 @@ const port = 1883, wsPort = 8883;
 
 const mq = redisMq({
     port: 6379,
-    host: 'localhost'
+    host: 'redis'
 });
 
 const aedes = Aedes({mq: mq});
